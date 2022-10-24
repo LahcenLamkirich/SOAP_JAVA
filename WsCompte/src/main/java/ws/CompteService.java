@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.List;
 
 @WebService(serviceName = "WsCompte")
-public class webService {
+public class CompteService {
     @WebMethod
     public double Convert(@WebParam(name = "Euro_montant") double euros){
         return euros*10;
